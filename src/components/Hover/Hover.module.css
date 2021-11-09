@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  height: 48px;
+  width: 48px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.small {
+  height: 30px;
+  width: 30px;
+}
+
+.wrapper:hover {
+  background-color: rgba(0,0,0,.03);
+}
+
+.disableHoverState{
+  cursor: default;
+}
+
+.disableHoverState:hover {
+  background-color: transparent !important;
+}
