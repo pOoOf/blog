@@ -1,0 +1,32 @@
+.primary {
+  height: 100%;
+  width: 64px;
+  background-color: #fff;
+  border-right: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px 0 16px 0;
+}
+.logoContainer {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.54;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.logoContainer:hover {
+  opacity: 1;
+}
+
+
+.icon {
+  color: #000;
+  opacity: 0.54;
+}
