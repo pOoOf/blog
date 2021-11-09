@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { BookmarkSimple, Circle, Gear, List } from 'phosphor-react';
+import { BookmarkSimple, Circle, Gear, List, PencilCircle, Books, MonitorPlay } from 'phosphor-react';
 import cx from 'classnames';
 
 import styles from './SecondarySidebar.module.css';
@@ -18,14 +18,28 @@ const SecondarySidebar = () => {
         <span>Bookmarks</span>
       </div>
       <div className={styles.navHeading}>
-        <span>FEEDS</span>
+        <span>Writings</span>
         <Hover size="small">
           <Gear size={20} weight="light" />
         </Hover>
       </div>
       <div className={styles.navItem}>
-        <List size={20} weight="light" />
-        <span>All</span>
+        <Books size={20} weight="light" />
+        <span>Books</span>
+      </div>
+      <div className={styles.navItem}>
+        <MonitorPlay size={20} weight="light" />
+        <span>Courses</span>
+      </div>
+      <div className={styles.navItem}>
+        <PencilCircle size={20} weight="light" />
+        <span>Other</span>
+      </div>
+      <div className={styles.navHeading}>
+        <span>PROJECTS</span>
+        <Hover size="small">
+          <Gear size={20} weight="light" />
+        </Hover>
       </div>
       <div className={cx(styles.navItem, styles.lightText)}>
         <div className={styles.iconContainer}>
@@ -58,7 +72,31 @@ const SecondarySidebar = () => {
         <span>Tools</span>
       </div>
       <div className={styles.navHeading}>
-        <span>BOARDS</span>
+        <span>Online</span>
+      </div>
+      <div className={cx(styles.navItem, styles.lightText)}>
+        <div className={styles.iconContainer}>
+          <Circle color="#24292f" size={10} weight="fill" />
+        </div>
+        <span>Github</span>
+      </div>
+      <div className={cx(styles.navItem, styles.lightText)}>
+        <div className={styles.iconContainer}>
+          <Circle color="#1d9bf0" size={10} weight="fill" />
+        </div>
+        <span>Twitter</span>
+      </div>
+      <div className={cx(styles.navItem, styles.lightText)}>
+        <div className={styles.iconContainer}>
+          <Circle color="#7a36ac" size={10} weight="fill" />
+        </div>
+        <span>Instagram</span>
+      </div>
+      <div className={cx(styles.navItem, styles.lightText)}>
+        <div className={styles.iconContainer}>
+          <Circle color="#ff0100" size={10} weight="fill" />
+        </div>
+        <span>Youtube</span>
       </div>
     </div>
   );
