@@ -7,4 +7,31 @@ body, #__next {
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #333;
+}
+p {
+  font-size: 18px;
+  margin: 42px 0 0 0;
+  color: #333;
+  line-height: 36px;
+  letter-spacing: 0.4px;
 }

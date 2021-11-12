@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { BookmarkSimple, Circle, Gear, List, PencilCircle, Books, MonitorPlay } from 'phosphor-react';
+import { BookmarkSimple, Circle, Gear, List, Wrench, PencilCircle, Books, MonitorPlay } from 'phosphor-react';
 import cx from 'classnames';
 
 import styles from './SecondarySidebar.module.css';
@@ -16,6 +16,10 @@ const SecondarySidebar = () => {
       <div className={styles.navItem}>
         <BookmarkSimple size={24} weight="light" />
         <span>Bookmarks</span>
+      </div>
+      <div className={styles.navItem}>
+        <Wrench size={24} weight="light" />
+        <span>Tools</span>
       </div>
       <div className={styles.navHeading}>
         <span>Notes & Summaries</span>
@@ -36,7 +40,7 @@ const SecondarySidebar = () => {
         <span>Other</span>
       </div>
       <div className={styles.navHeading}>
-        <span>PROJECTS</span>
+        <span>Projects</span>
         {/* <Hover size="small">
           <Gear size={24} weight="light" />
         </Hover> */}

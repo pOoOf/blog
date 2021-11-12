@@ -21,7 +21,15 @@ const Home: NextPage = () => {
           <SecondarySidebar />
         </div>
         {/* <div className={styles.subContent}></div> */}
-        <div className={styles.content}></div>
+        <div className={styles.content}>
+          <div className={styles.box}>
+            <h1>Hello, World!</h1>
+            <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask, who and what manner of man was this Miguel de Cervantes Saavedra whose name is on the title-page; and it was too late for a satisfactory answer to the question when it was proposed to add a life of the author to the London edition published at Lord Carteret’s instance in 1738. All traces of the personality of Cervantes had by that time disappeared. </p>
+            <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask, who and what manner of man was this Miguel de Cervantes Saavedra whose name is on the title-page; and it was too late</p>
+            <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask</p>
+            <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask, who and what manner of man was this Miguel de Cervantes Saavedra whose name is on the title-page; and it was too late for a satisfactory answer to the question when it was proposed to add a life of the author to the London edition published at Lord Carteret’s instance in 1738. All traces of the personality of Cervantes had by that time disappeared. </p>
+          </div>
+        </div>
       </div>
     </div>
   )
