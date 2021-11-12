@@ -12,11 +12,8 @@ const PrimarySidebar = () => {
         <div className={styles.logoContainer}>
           <Image src={logoSmall} alt="logo" height={32} width={32} />
         </div>
-        <Hover disabled>
-          <Circle color="#ffffff" size={24} weight="fill" className={styles.icon} />
-        </Hover>
       </div>
-      <div className={styles.mainOptions}>
+      {/* <div className={styles.mainOptions}>
         <Hover>
           <Plus size={24} className={styles.icon} />
         </Hover>
@@ -32,7 +29,7 @@ const PrimarySidebar = () => {
         <Hover>
           <Question size={24} className={styles.icon} />
         </Hover>
-      </div>
+      </div> */}
       <div className={styles.footer}>
         <Hover>
           <Circle color="#333333" size={32} weight="fill" className={styles.icon} />

@@ -10,35 +10,35 @@ const SecondarySidebar = () => {
   return (
     <div className={styles.navList}>
       <div className={styles.navItem}>
-        <Image src={lollipop} alt="logo" height={20} width={20} />
+        <Image src={lollipop} alt="logo" height={24} width={24} />
         <span>Hello, World!</span>
       </div>
       <div className={styles.navItem}>
-        <BookmarkSimple size={20} weight="light" />
+        <BookmarkSimple size={24} weight="light" />
         <span>Bookmarks</span>
       </div>
       <div className={styles.navHeading}>
         <span>Notes & Summaries</span>
         {/* <Hover size="small">
-          <Gear size={20} weight="light" />
+          <Gear size={24} weight="light" />
         </Hover> */}
       </div>
       <div className={styles.navItem}>
-        <Books size={20} weight="light" />
+        <Books size={24} weight="light" />
         <span>Books</span>
       </div>
       <div className={styles.navItem}>
-        <MonitorPlay size={20} weight="light" />
+        <MonitorPlay size={24} weight="light" />
         <span>Courses</span>
       </div>
       <div className={styles.navItem}>
-        <PencilCircle size={20} weight="light" />
+        <PencilCircle size={24} weight="light" />
         <span>Other</span>
       </div>
       <div className={styles.navHeading}>
         <span>PROJECTS</span>
         {/* <Hover size="small">
-          <Gear size={20} weight="light" />
+          <Gear size={24} weight="light" />
         </Hover> */}
       </div>
       <div className={cx(styles.navItem, styles.lightText)}>

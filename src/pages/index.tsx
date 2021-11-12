@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           <PrimarySidebar />
           <SecondarySidebar />
         </div>
-        <div className={styles.subContent}></div>
+        {/* <div className={styles.subContent}></div> */}
         <div className={styles.content}></div>
       </div>
     </div>
