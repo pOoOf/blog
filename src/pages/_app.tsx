@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import ReactGA from 'react-ga'
+import ReactGA from "react-ga4";
 
 import '../styles/globals.css'
 
@@ -10,13 +10,12 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {
-      ReactGA.set({ page: url })
-      ReactGA.pageview(url)
+      ReactGA.send({ hitType: "pageview", page: url });
     }
-    console.log('process.env.NODE_ENV', process.env.NODE_ENV);
-    ReactGA.initialize('G-9T470HFNJE', { debug: true });
-    ReactGA.set({ page: router.pathname })
-    ReactGA.pageview(router.pathname)
+
+    ReactGA.initialize('G-T96DWP1EPR');
+    ReactGA.send({ hitType: "pageview", page: router.pathname });
+
     router.events.on('routeChangeComplete', handleRouteChange)
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
