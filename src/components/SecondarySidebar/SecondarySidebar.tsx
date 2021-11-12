@@ -76,7 +76,7 @@ const SecondarySidebar = () => {
         <span>Tools</span>
       </div>
       <div className={styles.navHeading}>
-        <span>Online</span>
+        <span>Follow</span>
       </div>
       <div className={cx(styles.navItem, styles.lightText)}>
         <div className={styles.iconContainer}>
