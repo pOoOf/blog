@@ -18,10 +18,10 @@ const SecondarySidebar = () => {
         <span>Bookmarks</span>
       </div>
       <div className={styles.navHeading}>
-        <span>Writings</span>
-        <Hover size="small">
+        <span>Notes & Summaries</span>
+        {/* <Hover size="small">
           <Gear size={20} weight="light" />
-        </Hover>
+        </Hover> */}
       </div>
       <div className={styles.navItem}>
         <Books size={20} weight="light" />
@@ -37,9 +37,9 @@ const SecondarySidebar = () => {
       </div>
       <div className={styles.navHeading}>
         <span>PROJECTS</span>
-        <Hover size="small">
+        {/* <Hover size="small">
           <Gear size={20} weight="light" />
-        </Hover>
+        </Hover> */}
       </div>
       <div className={cx(styles.navItem, styles.lightText)}>
         <div className={styles.iconContainer}>

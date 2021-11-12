@@ -13,7 +13,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       ReactGA.set({ page: url })
       ReactGA.pageview(url)
     }
-    ReactGA.initialize('G-9T470HFNJE', { debug: process.env.NODE_ENV === 'development' });
+    console.log('process.env.NODE_ENV', process.env.NODE_ENV);
+    ReactGA.initialize('G-9T470HFNJE', { debug: true });
     ReactGA.set({ page: router.pathname })
     ReactGA.pageview(router.pathname)
     router.events.on('routeChangeComplete', handleRouteChange)
