@@ -32,7 +32,7 @@ const PrimarySidebar = () => {
       </div> */}
       <div className={styles.footer}>
         <Hover>
-          <Circle color="#333333" size={32} weight="fill" className={styles.icon} />
+          <Circle size={32} weight="fill" className={styles.icon} />
         </Hover>
       </div>
     </div>
