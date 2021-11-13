@@ -1,16 +1,14 @@
-import Image from 'next/image';
-import { Circle, Gift, MagnifyingGlass, Moon, Plus, Question } from "phosphor-react";
+import { User, Triangle } from "phosphor-react";
 
 import Hover from "../Hover/Hover";
 import styles from './PrimarySidebar.module.scss';
-import logoSmall from '../../assets/images/logo-small-2.png';
 
 const PrimarySidebar = () => {
   return (
     <div className={styles.primary}>
       <div className={styles.head}>
         <div className={styles.logoContainer}>
-          <Image src={logoSmall} alt="logo" height={32} width={32} />
+          <Triangle className={styles.logo} weight="fill" />
         </div>
       </div>
       {/* <div className={styles.mainOptions}>
@@ -32,7 +30,7 @@ const PrimarySidebar = () => {
       </div> */}
       <div className={styles.footer}>
         <Hover>
-          <Circle color="#333333" size={32} weight="fill" className={styles.icon} />
+          <User size={24} className={styles.icon} />
         </Hover>
       </div>
     </div>

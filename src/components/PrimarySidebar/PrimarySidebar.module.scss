@@ -1,8 +1,7 @@
 .primary {
   height: 100%;
   width: 64px;
-  background-color: #fdfbf6;
-  border-right: 1px solid #efefef;
+  border-right: 1px solid var(--sidebar-nav-border-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,16 +16,15 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  opacity: 0.54;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.logoContainer:hover {
-  opacity: 1;
 }
 
 
 .icon {
-  /* fill: #ff8342; */
-  opacity: 0.54;
+  color: var(--sidebar-nav-icon-color);
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--website-logo-color);
+  transform: rotateZ(180deg);
 }

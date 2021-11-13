@@ -14,35 +14,35 @@ const SecondarySidebar = () => {
         <span>Hello, World!</span>
       </div>
       <div className={styles.navItem}>
-        <BookmarkSimple size={24} weight="light" />
+        <BookmarkSimple className={styles.icon} weight="light" />
         <span>Bookmarks</span>
       </div>
       <div className={styles.navItem}>
-        <Wrench size={24} weight="light" />
+        <Wrench className={styles.icon} weight="light" />
         <span>Tools</span>
       </div>
       <div className={styles.navHeading}>
         <span>Notes & Summaries</span>
         {/* <Hover size="small">
-          <Gear size={24} weight="light" />
+          <Gear className={styles.icon} weight="light" />
         </Hover> */}
       </div>
       <div className={styles.navItem}>
-        <Books size={24} weight="light" />
+        <Books className={styles.icon} weight="light" />
         <span>Books</span>
       </div>
       <div className={styles.navItem}>
-        <MonitorPlay size={24} weight="light" />
+        <MonitorPlay className={styles.icon} weight="light" />
         <span>Courses</span>
       </div>
       <div className={styles.navItem}>
-        <PencilCircle size={24} weight="light" />
+        <PencilCircle className={styles.icon} weight="light" />
         <span>Other</span>
       </div>
       <div className={styles.navHeading}>
         <span>Projects</span>
         {/* <Hover size="small">
-          <Gear size={24} weight="light" />
+          <Gear className={styles.icon} weight="light" />
         </Hover> */}
       </div>
       <div className={cx(styles.navItem, styles.lightText)}>
