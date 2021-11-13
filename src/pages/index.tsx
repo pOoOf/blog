@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.content}>
           <div className={styles.box}>
-            <h1>Hi, I'm Vikash Gupta</h1>
+            <h1>Hi, I&apos;m Vikash Gupta</h1>
             <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask, who and what manner of man was this Miguel de Cervantes Saavedra whose name is on the title-page; and it was too late for a satisfactory answer to the question when it was proposed to add a life of the author to the London edition published at Lord Carteret’s instance in 1738. All traces of the personality of Cervantes had by that time disappeared. </p>
             <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask, who and what manner of man was this Miguel de Cervantes Saavedra whose name is on the title-page; and it was too late</p>
             <p>Four generations had laughed over “Don Quixote” before it occurred to anyone to ask</p>
