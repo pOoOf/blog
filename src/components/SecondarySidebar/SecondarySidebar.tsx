@@ -14,35 +14,35 @@ const SecondarySidebar = () => {
         <span>Hello, World!</span>
       </div>
       <div className={styles.navItem}>
-        <BookmarkSimple className={styles.icon} weight="light" />
+        <BookmarkSimple className={styles.icon} weight="fill" />
         <span>Bookmarks</span>
       </div>
       <div className={styles.navItem}>
-        <Wrench className={styles.icon} weight="light" />
+        <Wrench className={styles.icon} weight="fill" />
         <span>Tools</span>
       </div>
       <div className={styles.navHeading}>
         <span>Notes & Summaries</span>
         {/* <Hover size="small">
-          <Gear className={styles.icon} weight="light" />
+          <Gear className={styles.icon} weight="fill" />
         </Hover> */}
       </div>
       <div className={styles.navItem}>
-        <Books className={styles.icon} weight="light" />
+        <Books className={styles.icon} weight="fill" />
         <span>Books</span>
       </div>
       <div className={styles.navItem}>
-        <MonitorPlay className={styles.icon} weight="light" />
+        <MonitorPlay className={styles.icon} weight="fill" />
         <span>Courses</span>
       </div>
       <div className={styles.navItem}>
-        <PencilCircle className={styles.icon} weight="light" />
+        <PencilCircle className={styles.icon} weight="fill" />
         <span>Other</span>
       </div>
       <div className={styles.navHeading}>
         <span>Projects</span>
         {/* <Hover size="small">
-          <Gear className={styles.icon} weight="light" />
+          <Gear className={styles.icon} weight="fill" />
         </Hover> */}
       </div>
       <div className={cx(styles.navItem, styles.lightText)}>

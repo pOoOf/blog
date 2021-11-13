@@ -11,13 +11,13 @@ body, #__next {
   --sidebar-nav-section-heading-color: #555;
   --sidebar-nav-icon-color: #333;
   --sidebar-nav-label-color: #333;
-  --sidebar-nav-background-color: #fdfbf6;
+  --sidebar-nav-background-color: #ffffff;
   --sidebar-nav-border-color: #efefef;
   --website-logo-color: #333;
   
-  --content-background-color: #fff;
+  --content-background-color: #fdfbf6;
   --content-heading-color: #333;
-  --content-para-color: #333;
+  --content-para-color: #404040;
 
   @media (prefers-color-scheme: dark) {
     --sidebar-nav-hover-color: rgba(0,0,0,.15);
@@ -30,7 +30,7 @@ body, #__next {
     
     --content-background-color: #121416;
     --content-heading-color: #fff;
-    --content-para-color: #b1b5c3;
+    --content-para-color: #a3a3a3;
   }
 }
 
@@ -64,7 +64,7 @@ h2 {
   color: #333;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
   margin: 32px 0 0 0;
   color: var(--content-para-color);
   line-height: 36px;
