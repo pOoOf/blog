@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { BookmarkSimple, Circle, Gear, List, Wrench, PencilCircle, Books, MonitorPlay } from 'phosphor-react';
 import cx from 'classnames';
 
-import styles from './SecondarySidebar.module.css';
+import styles from './SecondarySidebar.module.scss';
 import lollipop from '../../assets/images/lollipop.png';
 import Hover from '../Hover/Hover';
 

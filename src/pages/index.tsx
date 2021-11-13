@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head'
 import cx from 'classnames';
 import type { NextPage } from 'next'
+import { List, X } from 'phosphor-react';
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import PrimarySidebar from '../components/PrimarySidebar/PrimarySidebar';
 import SecondarySidebar from '../components/SecondarySidebar/SecondarySidebar';
 
 const Home: NextPage = () => {
+  const [isSidebarOpen, toggleSidebar] = useState(false);
+  const _toggleSidebar = () => {
+    toggleSidebar(!isSidebarOpen);
+  }
+  const FabIcon = isSidebarOpen ? X : List;
   return (
     <div className={styles.page}>
       <Head>
@@ -16,11 +22,13 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={styles.container}>
-        <div className={cx(styles.leftNavbar, styles.unselectable)}>
+        <div className={cx(styles.leftNavbar, styles.unselectable, isSidebarOpen ? styles.openSidebar : '')}>
           <PrimarySidebar />
           <SecondarySidebar />
         </div>
-        {/* <div className={styles.subContent}></div> */}
+        <div className={styles.menuFab} onClick={_toggleSidebar}>
+          <FabIcon height={32} width={32} color="#fff" />
+        </div>
         <div className={styles.content}>
           <div className={styles.box}>
             <h1>Hello, World!</h1>

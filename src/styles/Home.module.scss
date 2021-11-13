@@ -12,6 +12,41 @@
 
 .leftNavbar {
   display: flex;
+
+  @media (max-width: 768px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    -webkit-transition: transform 0.5s cubic-bezier(1, 0, 0.5, 0.95);
+    transition: transform 0.5s cubic-bezier(1, 0, 0.5, 0.95);
+    transform: translateY(100%);
+  }
+}
+
+.openSidebar {
+  transform: translateY(0);
+}
+
+.menuFab {
+  display: none;
+
+  @media (max-width: 768px) {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 48px;
+    height: 48px;
+    background-color:#333;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  }
 }
 
 .subContent {
@@ -32,7 +67,7 @@
   margin: 0 auto;
   flex-direction: column;
   display: flex;
-  padding: 72px 0;
+  padding: 72px 24px;
 }
 .iconContainer {
   height: 20px;

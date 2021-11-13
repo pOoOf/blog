@@ -24,9 +24,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Baskerville', serif;
 }
 h1 {
-  font-size: 70px;
+  font-size: 48px;
   font-weight: 400;
   color: #333;
+  margin-bottom: 0;
 }
 h2 {
   font-size: 40px;
@@ -35,7 +36,7 @@ h2 {
 }
 p {
   font-size: 18px;
-  margin: 42px 0 0 0;
+  margin: 32px 0 0 0;
   color: #333;
   line-height: 36px;
   letter-spacing: 0.4px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Hover.module.css';
+import styles from './Hover.module.scss';
 import cx from 'classnames';
 
 const Hover = ({ children, disabled = false, size }: any) => {

@@ -8,6 +8,10 @@
   box-sizing: border-box;
   width: 250px;
   padding: 48px 0;
+
+  @media (max-width: 768px) {
+    width: calc(100vw - 64px);
+  }
 }
 
 .navItem {

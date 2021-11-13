@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Circle, Gift, MagnifyingGlass, Moon, Plus, Question } from "phosphor-react";
 
 import Hover from "../Hover/Hover";
-import styles from './PrimarySidebar.module.css';
+import styles from './PrimarySidebar.module.scss';
 import logoSmall from '../../assets/images/logo-small-2.png';
 
 const PrimarySidebar = () => {
