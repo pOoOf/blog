@@ -18,7 +18,7 @@ body, #__next {
   --content-background-color: #fdfbf6;
   --content-heading-color: #333;
   --content-para-color: #404040;
-  --content-para-hightlight-color: #aaa;
+  --content-para-hightlight-color: #FF6961;
 
   @media (prefers-color-scheme: dark) {
     --sidebar-nav-hover-color: #1e1b26;
@@ -32,7 +32,7 @@ body, #__next {
     --content-background-color: #08070b;
     --content-heading-color: #fff;
     --content-para-color: #8f9ba8;
-    --content-para-hightlight-color: #fff;
+    --content-para-hightlight-color: #FF6961;
   }
 }
 
